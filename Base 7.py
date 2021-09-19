@@ -11,7 +11,7 @@ class Solution:
         while num!=0:
             rem=num%7
             num=num//7
-            output.append(str(rem))r
+            output.append(str(rem))
 
         output.reverse()
         output=''.join(output)
